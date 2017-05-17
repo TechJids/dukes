@@ -17,7 +17,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -26,50 +26,128 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <h3 class="text-muted">dukes</h3>
-      </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+    <!-- <div class="container">
+      <div class="header"> -->
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+      <body>
+      	<div class="header text-center">
+      	 	<h1>Dukes Avenue</h1>
+      	 	 <p>Where The Music Is</p>
+         </div>
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+        	<div class="cards">
+         	 <div class="container">
+         	   <h2 class="text-center">Meet The Team</h2>
+         	  <div class="row">
+         	   <div class="col-md-4">
+         	    <img class="img-responsive thumbnail" src="dukes-img/jids.jpg" id="jm">
+         	    <h5>Jack Moses - Songwriter/Singer/Vocal Producer</h5>
+         	    </div>
+         	   <div class="col-md-4">
+         	    <img class="img-responsive thumbnail" src="dukes-img/dutchie.jpg" id="dutch">
+         	    <h5>Dutchie - Producer/Songwriter/Vocal Producer</h5>
+         	    </div>
+         	   <div class="col-md-4">
+         	    <img class="img-responsive thumbnail" src="dukes-img/pbj.jpg" id="pbj">
+         	    <h5>PBJ - Producer/Songwriter/Vocal Producer</h5>
+         	   </div>
+         	  </div>
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+         	  <h2 id="Music" class="text-center">Hear The Music</h2>
+         	    <div class="row">
+         	     <div class="col-md-4">
+         	      <a href="https://www.youtube.com/watch?v=zazhp3gNVbg" target="_blank"><img class="img-responsive" src="dukes-img/beauty.jpg" alt="beautiful girl image"></a>
+         	      <h6 class="text-center">Click the video to view</h6>
+         	      <p>Beautiful Girl - Written, Vocalled and Produced By Dukes Avenue</p>
+         	     </div>
 
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-        </div>
-      </div>
+         	    <div class="col-md-4">
+         	     <a href="https://www.youtube.com/watch?v=-vcUT-x3LfQ" target="_blank"><img class="img-responsive" src="dukes-img/changes.jpg" alt="Changes video"></a>
+         	     <h6 class="text-center">Click the video to view</h6>
+         	    <p>Dylan Williams - 'Changes' - Co-written and Produced By Dukes Avenue </p>
+         	    </div>
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
-    </div>
-    
+         	    <div class="col-md-4">
+         	     <a href="https://www.youtube.com/watch?v=5e3A-QzHRe0" target="_blank"><img class="img-responsive" src="dukes-img/kids.jpg" alt="kids of the night video"></a>
+         	     <h6 class="text-center">Click the video to view</h6>
+         	     <p>Blizzard - 'Kids of the Night' - Co-written and Produced By Dukes Avenue </p>
+         	     </div>
+         	     </div>
+
+         	     <!-- Overlay Attempt -->
+         	     <div class="overlayContainer">
+         	     <h2 id="stars" class="text-center">Some Collabs</h2>
+         	      <div class="row">
+         	       <div class="col-md-9">
+         	       <div class="invisible">
+         	        <div class="text">Tre Jean Marie</div>
+         	        </div>
+         	        <img class="img-responsive class" id="tre" src="https://static.wixstatic.com/media/dfc87b_7a1a667f938d4923b1eb2fc3c84edf0f.jpg_srz_857_571_85_22_0.50_1.20_0.00_jpg_srz"  alt="tre jean marie">
+         	        <p id="treason">Tre Jean Marie</p>
+         	        </div>
+
+
+         	        <div class="col-md-3">
+         	         <img class="img-responsive image" src="https://pbs.twimg.com/profile_images/757891088346644480/wSSJ6Lc4.jpg">
+         	         <p>Louise Labelle</p>
+         	         </div>
+
+         	         <div class="col-md-3">
+         	         <img class="img-responsive image" src="https://www.pmtonline.co.uk/yoma_press/wp-content/uploads/2016/03/ed1.jpg" alt="Ed Sheeran">
+         	         <p>Ed Sheeran</p>
+         	         </div>
+
+         	         <div class="col-md-6">
+         	         <img class="img-responsive image" src="https://pbs.twimg.com/profile_images/771010489681899520/b5H0sC3Y.jpg" width="550">
+         	         <p>Sampha</p>
+         	         </div>
+
+         	         <div class="col-md-6">
+         	         <img  class="img-responsive image" src="http://newwavedistrict.co.uk/wp-content/uploads/2017/01/Dylan-Williams-752x440.jpg" alt="Dylan Williams">
+
+         	         <p>Dylan Williams</p>
+         	         </div>
+
+
+         	   </div>
+         	 </div>
+         	 </div>
+
+         	  <div class="middle">
+         	   <div class="container-fluid text-center" style="background-color: #272536; color: #fff;">
+      		<h4>Sign up to get the lastest news and music from Dukes Avenue</h4>
+
+      	 		 <form method="post" action="mailto:jawotona@outlook.com" class="form-inline">
+      	 	 		<div class="form-group">
+      	 	 		<input type="email" class="form-control" placeholder="Your Email" id="email">
+      	 	 		</div>
+      	 	 		<button type="submit" class="btn btn-default">Submit </button>
+      			</form>
+
+         	    </div>
+         	    </div>
+
+
+         	    <div class="jumbotron">
+         	     <div class="container">
+         	     <div class="row">
+         	      <div class="col-md-12">
+         	      <ul>
+         	      	<li><img src="dukes-img/dukeslogo.jpg" width="40"></li>
+         	      	 &copy Dukes Avenue 2017
+
+         	      	<li class="pull-right"><a href="https://www.facebook.com/DukesAvenue/" target="_blank"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facebook_icon_%28black%29.svg/2000px-Facebook_icon_%28black%29.svg.png" width="40"></a></li>
+
+         	      	<li class="pull-right"><a href="https://twitter.com/search?q=Dukes%20avenue&src=typd" target="_blank"><img src="http://cfk.handels.gu.se/digitalAssets/1551/1551766_1447424769_twitter_circle_black.png" width="40"></a></li>
+         	      	</div>
+
+         	      	</div>
+         	      </ul>
+         	      </div>
+         	      </div>
+
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -87,7 +165,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap/js/dist/util.js"></script>
     <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
@@ -101,7 +179,7 @@
     <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
     <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
